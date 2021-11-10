@@ -14,8 +14,7 @@
 
 	// Edit between these lines
 	// =================================
-	result = "a" + "b";
-
+	result = a + b;
 	// =================================
 
 	return result;
