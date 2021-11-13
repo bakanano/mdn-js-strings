@@ -25,6 +25,17 @@
     let para = document.createElement('p');
 
     // Add your code here
+    
+    function random(lowerBound, upperBound) {
+        return Math.floor(Math.random() * (upperBound - lowerBound) + upperBound);
+    }
+    
+    function chooseName(names) {
+        return names[random(0, names.length)];
+    }
+
+    para.textContent = chooseName(names);
+
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
